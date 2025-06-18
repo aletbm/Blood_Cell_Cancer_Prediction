@@ -49,51 +49,51 @@ B-cell development<br>
 # Directory structure
 
 ### 📂 Blood_Cell_Cancer_Prediction_Capstone_1
-* 📄 [README.md](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/README.md)
-* 📄 [Pipfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/Pipfile)
-* 📄 [Pipfile.lock](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/Pipfile.lock)
-* 📂 [analysis](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/analysis)
-    * 📊 [blood-cell-cancer-prediction.ipynb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/analysis/blood-cell-cancer-prediction.ipynb)
-    * 📖 [blood-cell-cancer-prediction.pdf](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/analysis/blood-cell-cancer-prediction.pdf)
-    * 📊 [blood_cell_cancer_prediction_Colab.ipynb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/analysis/blood_cell_cancer_prediction_Colab.ipynb)
-    * 📊 [test_deploy.ipynb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/analysis/test_deploy.ipynb)
-* 📂 [dataset](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/dataset)
-    * 🗄️ [blood_cell_cancer_with_mask_test.tfrecord](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/dataset/blood_cell_cancer_with_mask_test.tfrecord)
-    * 🗄️ [blood_cell_cancer_with_mask_train.tfrecord](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/dataset/blood_cell_cancer_with_mask_train.tfrecord)
-    * 🗄️ [blood_cell_cancer_with_mask_val.tfrecord](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/dataset/blood_cell_cancer_with_mask_val.tfrecord)
-* 📂 [etc](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc)
-    * 📄 [deploy.sh](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/deploy.sh)
-    * ⚙️ [gateway-deployment-service.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/gateway-deployment-service.yaml)
-    * ⚙️ [gateway-deployment.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/gateway-deployment.yaml)
-    * 🐋 [gateway.dockerfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/gateway.dockerfile)
-    * ⚙️ [kind-config.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/kind-config.yaml)
-    * ⚙️ [metallb-configmap.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/metallb-configmap.yaml)
-    * ⚙️ [model-deployment.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/model-deployment.yaml)
-    * ⚙️ [model-service.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/model-service.yaml)
-    * ⚙️ [nginx-ingress.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/nginx-ingress.yaml)
-    * 🐋 [serving.dockerfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/serving.dockerfile)
-* 📂 [models](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/models)
-    * 🤖 [model_backbone.keras](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/models/model_backbone.keras)
-    * 🤖 [model_base.keras](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/models/model_base.keras)
-    * 🤖 [model_base_aug.keras](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/models/model_base_aug.keras)
-    * 🤖 [model_base_segmentation.keras](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/models/model_base_segmentation.keras)
-    * 🤖 [model_base_segmentation_aug.keras](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/models/model_base_segmentation_aug.keras)
-    * 🤖 [model_seg_clf.keras](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/models/model_seg_clf.keras)
-    * 🤖 [model_seg_clf_aug.keras](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/models/model_seg_clf_aug.keras)
-* 📂 [scripts](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts)
-    * 🐍 [model_conversor.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/model_conversor.py)
-    * 🐍 [model_serving.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/model_serving.py)
-    * 🐍 [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/test.py)
-    * 🐍 [train.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/train.py)
-    * 📂 [blood-cell-model](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/blood-cell-model)
-        * 📄 [fingerprint.pb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/blood-cell-model/fingerprint.pb)
-        * 📄 [saved_model.pb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/blood-cell-model/saved_model.pb)
-        * 📂  [variables](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/blood-cell-model/variables)
-            * 📄 [variables.data-00000-of-00001](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/blood-cell-model/variables/variables.data-00000-of-00001)
-            * 📄 [variables.index](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/blood-cell-model/variables/variables.index)
-* 📂  [streamlit_app](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/streamlit_app)
-    * 🐍 [my_app.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/streamlit_app/my_app.py)
-    * 📄 [requirements.txt](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/streamlit_app/requirements.txt)
+* 📄 [README.md](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/README.md)
+* 📄 [Pipfile](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/Pipfile)
+* 📄 [Pipfile.lock](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/Pipfile.lock)
+* 📂 [analysis](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/analysis)
+    * 📊 [blood-cell-cancer-prediction.ipynb](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/analysis/blood-cell-cancer-prediction.ipynb)
+    * 📖 [blood-cell-cancer-prediction.pdf](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/analysis/blood-cell-cancer-prediction.pdf)
+    * 📊 [blood_cell_cancer_prediction_Colab.ipynb](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/analysis/blood_cell_cancer_prediction_Colab.ipynb)
+    * 📊 [test_deploy.ipynb](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/analysis/test_deploy.ipynb)
+* 📂 [dataset](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/dataset)
+    * 🗄️ [blood_cell_cancer_with_mask_test.tfrecord](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/dataset/blood_cell_cancer_with_mask_test.tfrecord)
+    * 🗄️ [blood_cell_cancer_with_mask_train.tfrecord](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/dataset/blood_cell_cancer_with_mask_train.tfrecord)
+    * 🗄️ [blood_cell_cancer_with_mask_val.tfrecord](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/dataset/blood_cell_cancer_with_mask_val.tfrecord)
+* 📂 [etc](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/etc)
+    * 📄 [deploy.sh](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/deploy.sh)
+    * ⚙️ [gateway-deployment-service.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/gateway-deployment-service.yaml)
+    * ⚙️ [gateway-deployment.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/gateway-deployment.yaml)
+    * 🐋 [gateway.dockerfile](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/gateway.dockerfile)
+    * ⚙️ [kind-config.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/kind-config.yaml)
+    * ⚙️ [metallb-configmap.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/metallb-configmap.yaml)
+    * ⚙️ [model-deployment.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/model-deployment.yaml)
+    * ⚙️ [model-service.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/model-service.yaml)
+    * ⚙️ [nginx-ingress.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/nginx-ingress.yaml)
+    * 🐋 [serving.dockerfile](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/blob/etc/serving.dockerfile)
+* 📂 [models](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/models)
+    * 🤖 [model_backbone.keras](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/models/model_backbone.keras)
+    * 🤖 [model_base.keras](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/models/model_base.keras)
+    * 🤖 [model_base_aug.keras](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/models/model_base_aug.keras)
+    * 🤖 [model_base_segmentation.keras](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/models/model_base_segmentation.keras)
+    * 🤖 [model_base_segmentation_aug.keras](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/models/model_base_segmentation_aug.keras)
+    * 🤖 [model_seg_clf.keras](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/models/model_seg_clf.keras)
+    * 🤖 [model_seg_clf_aug.keras](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/models/model_seg_clf_aug.keras)
+* 📂 [scripts](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/scripts)
+    * 🐍 [model_conversor.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/model_conversor.py)
+    * 🐍 [model_serving.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/model_serving.py)
+    * 🐍 [test.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/test.py)
+    * 🐍 [train.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/train.py)
+    * 📂 [blood-cell-model](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/scripts/blood-cell-model)
+        * 📄 [fingerprint.pb](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/blood-cell-model/fingerprint.pb)
+        * 📄 [saved_model.pb](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/blood-cell-model/saved_model.pb)
+        * 📂  [variables](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/scripts/blood-cell-model/variables)
+            * 📄 [variables.data-00000-of-00001](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/blood-cell-model/variables/variables.data-00000-of-00001)
+            * 📄 [variables.index](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/blood-cell-model/variables/variables.index)
+* 📂  [streamlit_app](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/streamlit_app)
+    * 🐍 [my_app.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/streamlit_app/my_app.py)
+    * 📄 [requirements.txt](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/streamlit_app/requirements.txt)
 
 ---
 # Downloading the dataset
@@ -110,13 +110,16 @@ You can download it with the following code:
 import kagglehub
 blood_cell_cancer_all_4class_path = kagglehub.dataset_download('mohammadamireshraghi/blood-cell-cancer-all-4class')
 ```
-Or, you can also use my preprocessed dataset with mask from [dataset](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/dataset) folder with the following code:
+Or, you can also use my preprocessed dataset with mask from [dataset](https://drive.google.com/drive/folders/1CelI5FUz1heL3UGrSYlXFbuSqFFXNTmk?usp=drive_link) folder with the following code:
 ```
-!wget https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/dataset/blood_cell_cancer_with_mask_test.tfrecord
-!wget https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/dataset/blood_cell_cancer_with_mask_train.tfrecord
-!wget https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/dataset/blood_cell_cancer_with_mask_val.tfrecord
+import gdown
+
+gdown.download('https://drive.google.com/uc?id=1D9bb4dGs4jMxZ1QsvLDFjOVtvWjTOTHa', output='dataset/blood_cell_cancer_with_mask_train.tfrecord', quiet=False)
+gdown.download('https://drive.google.com/uc?id=1OEsSjsvIRQHOfwTfu6w3efVKMuYpJdM2', output='dataset/blood_cell_cancer_with_mask_val.tfrecord', quiet=False)
+gdown.download('https://drive.google.com/uc?id=1mZATuBYaO9qjvHGaY1N4WTXbueG_vCIQ', output='dataset/blood_cell_cancer_with_mask_test.tfrecord', quiet=False)
+
 ```
-To load this `.tfrecord`, you can refer to the [train.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/train.py) script at line 257 and use it as an example.
+To load this `.tfrecord`, you can refer to the [train.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/train.py) script at line 257 and use it as an example.
 ```
 def parse(feature):
     features = tf.io.parse_single_example(
@@ -161,22 +164,24 @@ All the images were taken by using a Zeiss camera in a microscope with a 100x ma
 
 ## Dataset analysis and Training models
 
-The dataset analysis and the models training were conducted in Jupyter Notebook. You can find in the file named [blood-cell-cancer-prediction.ipynb](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/analysis/blood-cell-cancer-prediction.ipynb).
+The dataset analysis and the models training were conducted in Jupyter Notebook. You can find in the file named [blood-cell-cancer-prediction.ipynb](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/analysis/blood-cell-cancer-prediction.ipynb).
 
-The training script is available in the [train.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/train.py) script.
+The training script is available in the [train.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/train.py) script.
 
-Several models were training for different tasks. To deployment I used a model trained for classification and segmentation named [model_seg_clf.keras](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/models/model_seg_clf.keras).
+Several models were training for different tasks. To deployment I used a model trained for classification and segmentation named [model_seg_clf.keras](https://drive.google.com/file/d/17iFrEu9hnc_Mo-xDgNhvoTGgcUj1IhPQ/view?usp=drive_link).
+
+All the models are available [here](https://drive.google.com/drive/folders/1laxRroPdPOF7gfHJp2U9xZYdJo6McZ8W?usp=drive_link).
 
 ---
 # Running the project locally
 
 ## Using Flask
 
-The script to deploy the model using Flask is [model_serving.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/model_serving.py)
+The script to deploy the model using Flask is [model_serving.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/model_serving.py)
 
-[Pipfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/Pipfile) and [Pipfile.lock](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/Pipfile.lock) set up the Pipenv environment. 
+[Pipfile](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/Pipfile) and [Pipfile.lock](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/Pipfile.lock) set up the Pipenv environment. 
 
-First, you need to install from [Pipfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/Pipfile):
+First, you need to install from [Pipfile](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/Pipfile):
 ```
 pipenv install
 ```
@@ -196,7 +201,7 @@ Then, you will be ready to test the model by running the following command:
 ```
 python ./scripts/test.py
 ```
-Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/test.py) file to:
+Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/test.py) file to:
 ```
 url = "http://localhost:9696/predict"
 ```
@@ -214,7 +219,7 @@ And then, you can test the model by running the following command:
 ```
 python ./scripts/test.py
 ```
-Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Estimation_Obesity_Levels_midterm_project/scripts/test.py) file to:
+Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/test.py) file to:
 ```
 url = "http://localhost:9696/predict"
 ```
@@ -228,8 +233,8 @@ First, you need to build:
 + The Gateway image.
 
 To achieve this, I created two separate Dockerfiles:
-+ [serving.dockerfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/serving.dockerfile) -- Contains the instruction to serve the TensorFlow model in `saved_model` format ([blood-cell-model](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/tree/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/blood-cell-model)).
-+ [gateway.dockerfile](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/gateway.dockerfile) -- Contains the instruction to deploy the [model_serving.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/model_serving.py) algorithm and install its dependencies.
++ [serving.dockerfile](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/etc/serving.dockerfile) -- Contains the instruction to serve the TensorFlow model in `saved_model` format ([blood-cell-model](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/tree/main/scripts/blood-cell-model)).
++ [gateway.dockerfile](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/etc/gateway.dockerfile) -- Contains the instruction to deploy the [model_serving.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/model_serving.py) algorithm and install its dependencies.
 
 To build them, you can use the following commands:
 
@@ -266,13 +271,13 @@ Then, you will be ready to test the model by running the following command:
 ```
 python ./scripts/test.py
 ```
-Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/test.py) file to:
+Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/test.py) file to:
 ```
 url = "http://localhost:9696/predict"
 ```
 To deploy locally using Kubernetes and Docker, you must replace my Docker username with your Docker username in:
 
-+ The [model-deployment.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/model-deployment.yaml) file configuration.
++ The [model-deployment.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/etc/model-deployment.yaml) file configuration.
     ```
         spec:
         containers:
@@ -281,7 +286,7 @@ To deploy locally using Kubernetes and Docker, you must replace my Docker userna
             ports:
             - containerPort: 8500
     ```
-+ The [gateway-deployment.yaml](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/gateway-deployment.yaml) file configuration.
++ The [gateway-deployment.yaml](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/etc/gateway-deployment.yaml) file configuration.
     ```
     spec:
       containers:
@@ -296,7 +301,7 @@ Up to this point, you have built and pushed all the necessary images, and all co
 
 Now, you need to create a Kubernetes cluster with Kind and apply all configuration files. To do this, you have two options:
 + Do it manually by executing each command individually.
-+ Do it automatically by executing the [deploy.sh](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/etc/deploy.sh) script.
++ Do it automatically by executing the [deploy.sh](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/etc/deploy.sh) script.
 
 Manually, you must to execute the following commands:
 ```
@@ -327,7 +332,7 @@ Once all pods are running, you can test the deployment by running the following 
 ```
 python ./scripts/test.py
 ```
-Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/MySolutions_MLZoomcamp2024_DataTalks.Club/blob/main/Blood_Cell_Cancer_Prediction_Capstone_1/scripts/test.py) file to:
+Don't forget to update the `url` variable in the [test.py](https://github.com/aletbm/Blood_Cell_Cancer_Prediction/blob/main/scripts/test.py) file to:
 ```
 url = "http://localhost:80/predict"
 ```
