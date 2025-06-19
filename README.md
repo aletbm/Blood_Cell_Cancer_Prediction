@@ -347,7 +347,7 @@ For the following two examples, I extracted two image from the [Blood Cell Image
 ![Example_1](./src/example1.png)
 
 #### Example 2
-![Example_1](./src/example1.png)
+![Example_2](./src/example2.png)
 
 Futhermore, I extracted some frames from the video of [@elioffm](https://www.tiktok.com/@elioffm) on TikTok:
 
