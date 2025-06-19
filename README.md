@@ -1,4 +1,4 @@
-<img src="https://i.postimg.cc/0QXGghmB/RCB-banner-0000.png" width=1800px>
+<img src="https://i.postimg.cc/0QXGghmB/RCB-banner-0000.png" width=1800px></img>
 
 # 🩸 Blood Cell Cancer Prediction: Classification and Segmentation
 
