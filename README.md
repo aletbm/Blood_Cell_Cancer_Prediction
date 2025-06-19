@@ -358,8 +358,8 @@ Link to the original video: [Video on TikTok](https://www.tiktok.com/@elioffm/vi
 #### Frame 1
 ![Example_1](./src/exampleFromVideo1.png)
 
-#### Frame 1
-![Example_1](./src/exampleFromVideo2.png)
+#### Frame 2
+![Example_2](./src/exampleFromVideo2.png)
 
 # Streamlit App
 On the other hand, I developed a very simple app using Streamlit to deploy my model, where you can upload an image and obtain a prediction.
